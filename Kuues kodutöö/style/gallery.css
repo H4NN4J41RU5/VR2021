@@ -1,0 +1,63 @@
+
+body {
+    font-family: sans-serif;
+    background-color:dimgrey;
+    height: 150vh;
+
+}
+h1 {
+    color:floralwhite;
+     font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    color:floralwhite;
+     font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+    a {
+        text-decoration: none;
+        color: floralwhite;
+    }
+    p {
+        text-align: center;
+        color: floralwhite;
+    }
+
+.gallery
+{
+	width: 80%;
+	align-self: center;
+    align-content: center;
+
+	
+}
+
+.thumbgallery
+{
+	width: 100px;
+	height: 200px;
+	padding: 5px;
+    float: left;
+	margin-right: 5px;
+	align-content: center ;
+
+}
+
+.thumbs
+{
+    border-radius: 10px;
+    cursor: pointer;
+	transform-origin: 50% 50%;
+    transition: 0.3s;
+	align-content: center;
+}
+
+.thumbs:hover
+{	
+	opacity: 1;
+	filter: none;
+	transform: scale(1.05);
+}
